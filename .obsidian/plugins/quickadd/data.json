@@ -1,0 +1,32 @@
+{
+  "choices": [
+    {
+      "id": "office-brain-menu",
+      "name": "Office Brain menu",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "id": "office-brain-macro",
+        "name": "Office Brain menu",
+        "commands": [
+          {
+            "id": "office-brain-script",
+            "name": "Office Brain",
+            "type": "UserScript",
+            "path": "99 System/office-brain.js",
+            "settings": {}
+          }
+        ]
+      }
+    }
+  ],
+  "inputPrompt": "single-line",
+  "persistInputPromptDrafts": false,
+  "templateFolderPaths": [
+    "90 Templates"
+  ],
+  "enableRibbonIcon": true,
+  "announceUpdates": "none",
+  "version": "2.29.0"
+}

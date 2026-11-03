@@ -1,0 +1,19 @@
+filters:
+  and:
+    - file.inFolder("03 Knowledge")
+    - file.ext == "md"
+    - file.name != "Knowledge hub"
+views:
+  - type: table
+    name: Knowledge library
+    order:
+      - file.name
+      - type
+      - status
+      - service
+      - reviewed
+    sort:
+      - property: file.name
+        direction: ASC
+    columnSize:
+      note.type: 90

@@ -1,0 +1,7 @@
+{
+  "globalFilter": "",
+  "globalQuery": "path does not include 90 Templates\npath does not include 97 Archive\npath does not include /Archive/",
+  "setDoneDate": true,
+  "setCreatedDate": false,
+  "useFilenameAsScheduledDate": false
+}

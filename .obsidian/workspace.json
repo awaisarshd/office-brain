@@ -1,0 +1,96 @@
+{
+  "main": {
+    "id": "main",
+    "type": "split",
+    "direction": "vertical",
+    "children": [
+      {
+        "id": "main-tabs",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "home-leaf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "preview"
+              },
+              "icon": "lucide-file",
+              "title": "Home"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "left": {
+    "id": "left",
+    "type": "split",
+    "direction": "horizontal",
+    "width": 260,
+    "children": [
+      {
+        "id": "left-tabs",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "files",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "bookmarks",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-folder-closed",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "right": {
+    "id": "right",
+    "type": "split",
+    "direction": "horizontal",
+    "width": 260,
+    "collapsed": true,
+    "children": [
+      {
+        "id": "right-tabs",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "outline",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Home.md"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "active": "home-leaf",
+  "lastOpenFiles": [
+    "Home.md",
+    "Start here.md"
+  ]
+}
